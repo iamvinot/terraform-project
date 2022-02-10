@@ -4,6 +4,12 @@ Terraform is an infrastructure as code tool that lets you build, change, and ver
 
 ### Terraform Commands
 
+#### Initialize your Terraform working directory
+
+```bash
+terraform init 
+```
+
 #### Format and Validate Terraform code
 
 Format code per HCL canonical standard
@@ -16,12 +22,6 @@ Validate code for syntax
 
 ```bash
 terraform validate 
-```
-
-#### Initialize your Terraform working directory
-
-```bash
-terraform init 
 ```
 
 #### Plan, Deploy and Cleanup Infrastructure
