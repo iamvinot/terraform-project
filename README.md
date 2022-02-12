@@ -4,47 +4,43 @@ Terraform is an infrastructure as code tool that lets you build, change, and ver
 
 ### Terraform Commands
 
-#### Initialize your Terraform working directory
+* Initialize your Terraform working directory
 
 ```bash
 terraform init 
 ```
 
-#### Format and Validate Terraform code
-
-Format code per HCL canonical standard
+* Format code per HCL canonical standard
 
 ```bash
 terraform fmt 
 ```
 
-Validate code for syntax
+* Validate code for syntax
 
 ```bash
 terraform validate 
 ```
 
-#### Plan, Deploy and Cleanup Infrastructure
-
-Check the deployment plan
+* Check the deployment plan
 
 ```bash
 terraform plan 
 ```
 
-Apply changes without being prompted to enter “yes”
+* Apply changes without being prompted to enter “yes”
 
 ```bash
 terraform apply --auto-approve 
 ```
 
-Destroy plan
+* Destroy plan
 
 ```bash
 terraform destroy 
 ```
 
-Reconcile the state in Terraform state file with real-world resources
+* Reconcile the state in Terraform state file with real-world resources
 
 ```bash
 terraform refresh 
